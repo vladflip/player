@@ -1,0 +1,30 @@
+body{
+	margin:0;
+	background-color: #f1f1f2;
+}
+.container{
+	margin:150px 0 0 0;
+	text-align: center;
+}
+.video-js{
+	display: inline-block;
+	margin:0;
+}
+.control-pane{
+	margin:10px 0 0 0;
+}
+.control-pane div{
+	display: inline-block;
+	margin:0 20px 0 0;
+	background-color:#888;
+	color:#eee;
+	padding:10px;
+	cursor:pointer;
+	border-radius: 5px;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}

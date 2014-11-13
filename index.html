@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/video-js.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="video-container" id="videoContainer">
+			<video id="video" class="video-js vjs-default-skin"
+				preload="auto" width="640" height="300"
+				poster="http://video-js.zencoder.com/oceans-clip.png">
+			
+				<source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+				<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+				<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
+			</video>
+
+			<div class="control-pane" id="controlPane">
+				<div class="play" id="play">play</div>
+				<div class="pause" id="pause">pause</div>
+				<div class="stop" id="stop">stop</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/video.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
